@@ -44,7 +44,9 @@ We have to create a new directory to install virtualenv . Browse that directory 
 
 Now we have to create another directory inside virtualenv, then we have to install django inside it. Browse that new directory via command line and install django inside it.
 
-5. pipenv install django /pip install django
+5. pipenv install django==3.0 /pip install Django==3.0
+
+!!! Django 3.0 is needed.
 
 Copy this  whole oproject inside django directory, browse the app and run 
 python .\manage.py runserver
